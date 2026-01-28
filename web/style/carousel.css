@@ -70,7 +70,7 @@
 @media(max-width:250px){
    :root{
       --slide-width: 100%;
-      --slide-height: 100%;
+      --slide-height: 300px;
   }
   .contact_btn{
     bottom: 160px;
@@ -80,3 +80,4 @@
     margin-bottom: 20px;
   }
 }
+
