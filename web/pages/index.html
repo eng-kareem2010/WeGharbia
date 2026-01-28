@@ -10,7 +10,6 @@
     <meta name="author" content="Kareem Khaled">
     <meta name="description"
         content=" مدارس وي للتكنولوجيا التطبيقية تهدف لتدريب طلاب المرحلة الثانوية على استخدام التكنولوجيا الحديثة و مواكبة العصر في مختلف المجالات التكنولولوجية مثل : الاتصالات و الشبكات و البرمجة و الذكاء الاصطناعي ">
-    <meta name="seo" content="الموقع الرسمي لمدرسة وي الغربية ، مدارس التكنولوجيا التطبيقية ، مدرسة وي طنطا ، موقع مدرسة وي ، موقع مدرسة وي الغربية ، جدول مدرسة وي ، عنوان مدرسة وي فرع طنطا">
     <link rel="icon" href="../logo/We-Logo.png">
     <link rel="stylesheet" href="../style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -86,13 +85,22 @@
         <div class="carousel-viewport">
             <div class="carousel-container">
                 <div class="slide" id="img-1">
-                    <img src="../assests/slides/SchoolT.jfif" alt="Slide 1">
+                    <img src="../assests/slides/slide1.jpeg" alt="Slide 1">
                 </div>
                 <div class="slide" id="img-2">
-                    <img src="../assests/slides/schoolB.jpg" alt="Slide 2">
+                    <img src="../assests/slides/slide2.jpeg" alt="Slide 2">
                 </div>
                 <div class="slide" id="img-3">
-                    <img src="../assests/slides/schoolF.jpg" alt="Slide 3">
+                    <img src="../assests/slides/slide3.jpeg" alt="Slide 3">
+                </div>
+                <div class="slide" id="img-4">
+                    <img src="../assests/slides/slide4.jpeg" alt="Slide 4">
+                </div>
+                <div class="slide" id="img-5">
+                    <img src="../assests/slides/slide5.jpeg" alt="Slide 5">
+                </div>
+                <div class="slide" id="img-6">
+                    <img src="../assests/slides/slide6.jpeg" alt="Slide 6">
                 </div>
             </div>
 
@@ -100,6 +108,9 @@
                 <a href="#img-1"></a>
                 <a href="#img-2"></a>
                 <a href="#img-3"></a>
+                <a href="#img-4"></a>
+                <a href="#img-5"></a>
+                <a href="#img-6"></a>
             </div>
         </div>
 
@@ -184,6 +195,17 @@
                 </div>
             </div>
         </div>
+        <div class="locationSection">
+            <div class="locationDetails">
+                <p id="locationP">الغربية - طنطا - مجمع الجلاء التعليمي</p>
+                <button id="locationBtn" >فتح الموقع على خرائط جوجل
+                    <img src="../assests/location-point-svgrepo-com.svg" id="loc-ic" style="width: 40px; height: 40px; align-self: center;" alt="">
+                </button>
+            </div>
+            <div class="locationImgHolder">
+                <img src="../assests/schoolBuild.webp" id="schoolImg" alt="">
+            </div>
+        </div>
 
 
 
@@ -192,9 +214,12 @@
     <script src="../script/script.js"></script>
     <script src="../script/toast.js"></script>
     <script src="../script/menu.js"></script>
+    <script>
+        function nav_to_locaton(){
+            window.open("https://maps.app.goo.gl/NXdBN3ikRUFtAqRD6", "_blank");
+        }
+        document.getElementById("locationBtn").addEventListener('click',nav_to_locaton);
+    </script>
 </body>
 
-
 </html>
-
-
